@@ -14,12 +14,15 @@
 {% include 'mainapp/includes/inc_products_menu.html' %}
 </div>
 
+    <div class="">
+
 <div class="details">
     <div class="title clearfix">
     <h2>
         Категория: "{{ category.name|title }}"
     </h2>
 </div>
+
 <div class="products">
     {% for product in products %}
         <div class="block">
